@@ -1,4 +1,12 @@
 /*General Stuff*/
+p {
+    color: #333;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: helvetica,arial,sans-serif;
+    margin-bottom: 15px;
+}
+
 
 
 
@@ -80,6 +88,47 @@
     height: auto;
     max-height: 600px;
     margin: 5px auto;
+}
+
+.img2 {
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+    margin: 5px auto;
+}
+
+.img1text {
+    max-width: 65%;
+    font-size: 12px;
+    font-family: helvetica,arial,sans-serif;
+    color: #666;
+}
+
+.articleContent {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 45px;
+    justify-items: center;
+}
+
+.ulflex {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.articleIcons {
+    background: rosybrown;
+}
+
+.articleIcons>* {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: rgb(231, 231, 231);
+    border-radius: 50%;
 }
 
 /*This is css for the footer*/
