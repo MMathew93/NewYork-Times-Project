@@ -1,14 +1,11 @@
 /*General Stuff*/
-p {
+.article-p {
     color: #333;
     font-size: 1.25rem;
     line-height: 1.875rem;
     font-family: helvetica,arial,sans-serif;
     margin-bottom: 15px;
 }
-
-
-
 
 /*This is css for header*/
 .header {
@@ -112,6 +109,32 @@ p {
     justify-items: center;
 }
 
+.editors-picks{
+    margin: 1050px 0px 0px 0px;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    height: 30px;
+}
+
+.editors-picks figcaption a {
+    font-size: 13px;
+    font-family: helvetica,arial,sans-serif;
+    color: #333;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.editors-picks figure {
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+
+.editors-picks figcaption {
+    display: flex;
+    align-items: center;
+}
+
 .account-request {
     display: block;
     align-items: center;
@@ -137,7 +160,7 @@ p {
 .linecss1 {
     border-bottom: 1px solid rgb(204, 204, 204);
     width: 72px;
-    margin: 18px auto 7px;
+    margin: 18px auto 10px;
 }
 
 .linecss2 {
@@ -191,6 +214,11 @@ p {
     margin-right: 8px;
     cursor: pointer;
 }
+
+.articleRightGap{
+    padding-left: 50px;
+}
+
 
 /*This is css for the footer*/
 .footer {
