@@ -64,6 +64,7 @@ p {
     color: white;
     text-transform: uppercase;
     font-family: helvetica,arial,sans-serif;
+    cursor: pointer;
     font-size: 11px;
     line-height: 11px;
     font-weight: 700;
@@ -111,24 +112,84 @@ p {
     justify-items: center;
 }
 
+.account-request {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 14px;
+    font-weight: 1000;
+}
+
+.account-request>p {
+    margin:0px;
+    font-size: 15px;
+    font-weight: 1000;
+}
+
+.account-request>a {
+    text-decoration: none;
+    font-family: inherit;
+    margin-bottom: 20px;
+}
+
+.linecss1 {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    width: 72px;
+    margin: 18px auto 7px;
+}
+
+.linecss2 {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    width: 72px;
+    margin: 15px auto 18px;
+}
+
 .ulflex {
     display: flex;
-    justify-content: space-between;
     padding-left: 0;
+    justify-content: space-between;
+}
+
+.author {
+    color: #333;
+    padding-left: 5px;
+    text-decoration-color: #333;
+}
+
+.date {
+    font-size: 12px;
+    margin-top: 8px;
+    font-family: helvetica,arial,sans-serif;
+    color: #333;
+    font-weight: 500;
 }
 
 .articleIcons {
-    background: rosybrown;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.articleIcons>* {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+.articleIcons>a {
+    margin-right: 16px;
     width: 28px;
     height: 28px;
     background: rgb(231, 231, 231);
     border-radius: 50%;
+}
+
+.iconButtons {
+    display: flex;
+}
+
+.iconButtons>* {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 8px;
+    cursor: pointer;
 }
 
 /*This is css for the footer*/
