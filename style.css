@@ -88,18 +88,93 @@
     margin: 5px auto;
 }
 
-.img2 {
-    max-width: 100%;
-    height: auto;
-    max-height: 600px;
-    margin: 5px auto;
-}
-
 .img1text {
     max-width: 65%;
     font-size: 12px;
     font-family: helvetica,arial,sans-serif;
     color: #666;
+}
+
+.embedded-post{
+    color: black;
+    text-align: left;
+    position: relative;
+}
+
+.bold {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: .05em;
+}
+
+.one{
+    top: 24.8264%;
+    left: 0.0436%;
+    width: 180px;
+    position: absolute;
+}
+
+.two{
+    top: 24.8264%;
+    left: 25.5619%;
+    width: 190px;
+    position: absolute;
+}
+
+.three{
+    top: 24.8264%;
+    left: 51.0800%;
+    width: 190px;
+    position: absolute;
+}
+
+.four{
+    top: 24.8264%;
+    left: 76.5982%;
+    width: 190px;
+    position: absolute;
+}
+
+.five{
+    top: 73.4375%;
+    left: 0.0436%;
+    width: 190px;
+    position: absolute;
+}
+
+.six{
+    top: 73.4375%;
+    left: 25.5619%;
+    width: 190px;
+    position: absolute;
+}
+
+.seven{
+    top: 73.4375%;
+    left: 51.0800%;
+    width: 190px;
+    position: absolute;
+}
+
+.eight{
+    top: 73.4375%;
+    left: 76.5982%;
+    width: 190px;
+    position: absolute;
+}
+
+.embedded-P {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.img2 {
+    height: auto;
+    max-height: 500px;
+    margin: 5px auto;
 }
 
 .articleContent {
