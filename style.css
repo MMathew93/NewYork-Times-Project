@@ -3,7 +3,7 @@
     color: #333;
     font-size: 1.25rem;
     line-height: 1.875rem;
-    font-family: helvetica,arial,sans-serif;
+    font-family: helvetica, arial, sans-serif;
     margin-bottom: 15px;
 }
 
@@ -39,7 +39,7 @@
 .hamburger {
     display: flex;
     flex-direction: column;
-  }
+}
 
 .search {
     font-size: 25px;
@@ -67,7 +67,7 @@
     border-radius: 3px;
     color: white;
     text-transform: uppercase;
-    font-family: helvetica,arial,sans-serif;
+    font-family: helvetica, arial, sans-serif;
     cursor: pointer;
     font-size: 11px;
     line-height: 11px;
@@ -106,7 +106,7 @@
 .img1text {
     max-width: 65%;
     font-size: 12px;
-    font-family: helvetica,arial,sans-serif;
+    font-family: helvetica, arial, sans-serif;
     color: #666;
 }
 
@@ -114,7 +114,7 @@
     max-width: 91%;
     font-size: 0.9375rem;
     line-height: 1.25rem;
-    font-family: helvetica,arial,sans-serif;
+    font-family: helvetica, arial, sans-serif;
     color: #666;
     margin-bottom: 35px;
 }
@@ -130,12 +130,12 @@
     line-height: 1.125rem;
     font-weight: 400;
     font-style: normal;
-    font-family: georgia,times,serif;
+    font-family: georgia, times, serif;
     color: #333;
     margin: 0 0 0 0;
 }
 
-.embedded-post{
+.embedded-post {
     color: black;
     text-align: left;
     position: relative;
@@ -147,56 +147,56 @@
     letter-spacing: .05em;
 }
 
-.one{
+.one {
     top: 24.8264%;
     left: 0.0436%;
     width: 180px;
     position: absolute;
 }
 
-.two{
+.two {
     top: 24.8264%;
     left: 25.5619%;
     width: 190px;
     position: absolute;
 }
 
-.three{
+.three {
     top: 24.8264%;
     left: 51.0800%;
     width: 190px;
     position: absolute;
 }
 
-.four{
+.four {
     top: 24.8264%;
     left: 76.5982%;
     width: 190px;
     position: absolute;
 }
 
-.five{
+.five {
     top: 73.4375%;
     left: 0.0436%;
     width: 190px;
     position: absolute;
 }
 
-.six{
+.six {
     top: 73.4375%;
     left: 25.5619%;
     width: 190px;
     position: absolute;
 }
 
-.seven{
+.seven {
     top: 73.4375%;
     left: 51.0800%;
     width: 190px;
     position: absolute;
 }
 
-.eight{
+.eight {
     top: 73.4375%;
     left: 76.5982%;
     width: 190px;
@@ -204,7 +204,7 @@
 }
 
 .embedded-P {
-    font-family: arial,helvetica,sans-serif;
+    font-family: arial, helvetica, sans-serif;
     font-size: 10px;
     line-height: 17px;
     font-weight: 300;
@@ -219,7 +219,7 @@
     font-size: 16px;
     line-height: 1.25rem;
     font-style: normal;
-    font-family: arial,helvetica,sans-serif;
+    font-family: arial, helvetica, sans-serif;
     color: #333;
 }
 
@@ -227,7 +227,7 @@
     font-size: 12px;
     line-height: 1.25rem;
     font-style: normal;
-    font-family: arial,helvetica,sans-serif;
+    font-family: arial, helvetica, sans-serif;
     color: rgb(136, 136, 136);
     margin-left: 8px;
 }
@@ -245,9 +245,9 @@
     justify-items: center;
 }
 
-.editors-picks{
-    margin: 1050px 0px 0px 0px;
-    font-family: helvetica,arial,sans-serif;
+.editors-picks {
+    margin: 250% 0px 0px 0px;
+    font-family: helvetica, arial, sans-serif;
     font-size: 20px;
     border-bottom: 1px solid rgb(182, 182, 182);
     height: 30px;
@@ -255,7 +255,7 @@
 
 .editors-picks figcaption a {
     font-size: 13px;
-    font-family: helvetica,arial,sans-serif;
+    font-family: helvetica, arial, sans-serif;
     color: #333;
     text-decoration: none;
     margin-left: 10px;
@@ -276,13 +276,13 @@
     align-items: center;
     text-align: center;
     margin-top: 20px;
-    font-family: helvetica,arial,sans-serif;
+    font-family: helvetica, arial, sans-serif;
     font-size: 14px;
     font-weight: 1000;
 }
 
 .account-request>p {
-    margin:0px;
+    margin: 0px;
     font-size: 15px;
     font-weight: 1000;
 }
@@ -328,7 +328,7 @@
 .date {
     font-size: 12px;
     margin-top: 8px;
-    font-family: helvetica,arial,sans-serif;
+    font-family: helvetica, arial, sans-serif;
     color: #333;
     font-weight: 500;
 }
@@ -360,7 +360,7 @@
     cursor: pointer;
 }
 
-.articleRightGap{
+.articleRightGap {
     padding-left: 50px;
 }
 
@@ -372,25 +372,101 @@
     margin: 0;
 }
 
-.asdf{
+.asdf {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-#read-comments{
+#read-comments {
     background: #567b95;
     border: 1px solid #326891;
     border-radius: 3px;
     color: white;
     text-transform: uppercase;
-    font-family: helvetica,arial,sans-serif;
+    font-family: helvetica, arial, sans-serif;
     cursor: pointer;
     font-weight: 700;
     padding: 15px 15px 15px 15px;
     width: 45%;
     font-size: 16px;
 }
+
+.bottom-line {
+    display: flex;
+    justify-content: space-around;
+    width: 63%;
+    margin: 0 auto 1500px auto;
+}
+
+.fdsa {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.qwer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-copyright {
+    font-size: 10px;
+    line-height: 1.25rem;
+    font-style: normal;
+    font-family: arial, helvetica, sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+.footer-figures {
+    width: 272px;
+    margin: 10px 20px 10px 0px;
+}
+
+.bottom-line-left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 1px;
+    background-color: black;
+    margin: 0 0 2px 0;
+}
+
+.bottom-line-right {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 1px;
+    background-color: black;
+    margin: 0 0 2px 0;
+}
+
+.bottom-line-right-sub {
+    border-top: 1px solid black;
+}
+
+.butt {
+    text-decoration: none;
+}
+
+.footer-pics-row {
+    display: flex;
+}
+
+.rewq {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.bottom-line-left-two {
+    width: 60%;
+    height: 1px;
+    background-color: black;
+    margin: 0 0 2px 0;
+}
+
+
+
 
 
 /*This is css for the footer*/
