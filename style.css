@@ -13,12 +13,6 @@
     margin: 43px auto 0px;
 }
 
-body {
-    min-height: 400px;
-    margin-bottom: 100px;
-    clear: both;
- }
-
 /*This is css for header*/
 .header {
     position: fixed;
@@ -30,6 +24,7 @@ body {
     height: 40px;
     background: white;
     border-bottom: 1px solid #e2e2e2;
+    z-index: 99;
 }
 
 .headwrapper {
@@ -85,10 +80,17 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: 45px;
-    height: 8000px;
+    height: 100%;
+    margin-bottom: 70px;
 }
 
 .article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-article {
     display: flex;
     flex-direction: column;
     align-items: center;
